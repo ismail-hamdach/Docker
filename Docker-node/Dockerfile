@@ -5,7 +5,7 @@ FROM node
 WORKDIR /app
 
 # Copy all folders, sub folders and files in the current directory on the host to the image, /app. 
-COPY . ./
+COPY . .
 
 # This command will install the package in workdirectory /app 
 # This command get executed only during the build of the image
